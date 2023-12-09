@@ -5,14 +5,11 @@ const congratulation=document.querySelector("#alert");
 congratulation.hidden=true;
 const submit = document.querySelector("button[type=submit]");
 
-
-
 submit.addEventListener("click", (event) => {
     let all_correct=true;
     const checked_answers = [...document.querySelectorAll(".answer:checked")];
   //enlever le refresh quand on clique sur submit
   event.preventDefault();
-
 
   //regarder la question associer à chaque réponses cochés et mettre les couleur correspondante
   checked_answers.forEach((element) => {
