@@ -1,0 +1,26 @@
+.red{
+color: red;
+}
+
+.green{
+    color: green;
+}
+
+#alert{
+    position: absolute;
+left: 550px;
+top: 215px;
+    font-size: 125%;
+    padding: 20px;
+    border-radius: 5%;
+    background-size: 100%;
+background-color: aquamarine;
+
+color: green;
+
+}
+
+.alert-title{
+font-weight: bolder;
+font-size: 150%;
+}
